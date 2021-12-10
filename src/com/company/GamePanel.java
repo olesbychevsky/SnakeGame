@@ -34,7 +34,8 @@ public class GamePanel extends JPanel implements ActionListener {
     }
 
     public void startGame() {
-
+        newApple();
+        running = true;
     }
 
     public void paintComponent(Graphics g) {
