@@ -11,6 +11,8 @@ public class GameFrame extends JFrame {
         this.pack();
         this.setVisible(true);
         this.setLocationRelativeTo(null);
+        ImageIcon image = new ImageIcon("assets/snake.jpg");
+        this.setIconImage(image.getImage());
 
     }
 }
